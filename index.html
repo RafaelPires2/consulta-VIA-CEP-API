@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="content">
+            <h1 class="title" >Consulta Fácil</h1>
+            <form class="form-cep">
+                <label class="label-cep">Digite o seu CEP</label>
+                <input class="cep-consult" id="cep" type="number" placeholder="Digite seu CEP (somente numeros)" maxlength="8" minlength="8"/>  
+            </form>
+            <div class="results" id="renderResults">Resultado da sua pesquisa:</div>
+            <button class="btn-consult" id="botao" type="submit">Consultar</button>  
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
