@@ -1,16 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-input[type=number]::-webkit-inner-spin-button { 
-    -webkit-appearance: none;   
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
-input[type=number] { 
+
+input[type=number] {
     -moz-appearance: textfield;
     appearance: textfield;
 }
-.wrapper{
+
+.wrapper {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -19,7 +22,8 @@ input[type=number] {
 
     background: #121214;
 }
-.content{
+
+.content {
     width: 50vw;
     height: 50vh;
     display: flex;
@@ -30,14 +34,17 @@ input[type=number] {
     background: #202024;
     color: rgb(219, 219, 219);
 }
-.title{
+
+.title {
     margin-bottom: 50px;
 }
-.form-cep{
+
+.form-cep {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
-.cep-consult{
+
+.cep-consult {
     margin-top: 15px;
     margin-bottom: 20px;
     width: 300px;
@@ -48,17 +55,20 @@ input[type=number] {
     color: rgb(219, 219, 219);
     border: none;
     border-radius: 4px;
-    
+
 }
-.cep-consult:active, .cep-consult:focus{
-    outline: 1px solid purple; 
+
+.cep-consult:active, .cep-consult:focus {
+    outline: 1px solid purple;
 }
-.results{
+
+.results {
     margin-bottom: 40px;
     text-align: left;
     width: 300px;
 }
-.btn-consult{
+
+.btn-consult {
     width: 180px;
     height: 40px;
 
@@ -67,6 +77,7 @@ input[type=number] {
     border: none;
     border-radius: 4px;
 }
-.results::before{
+
+.results::before {
     color: green;
 }
